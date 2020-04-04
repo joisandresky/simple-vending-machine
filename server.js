@@ -17,7 +17,7 @@ class VendingMachine {
       case 2000:
       case 5000:
       case 10000:
-      case 200000:
+      case 20000:
         let drinkIdx = this.drinks.findIndex(drnk => drnk.id === drinkID);
 
         if (drinkIdx > -1) {
@@ -40,7 +40,7 @@ class VendingMachine {
         }
         break;
       default:
-        console.log('Uang tidak valid, uang yang diterima adalah pecahan Rp 2.000, Rp 5.000, Rp 10.000, Rp 20.0000');
+        console.log('Uang tidak valid, uang yang diterima adalah pecahan Rp 2.000, Rp 5.000, Rp 10.000, Rp 20.000');
     }
   }
 }
